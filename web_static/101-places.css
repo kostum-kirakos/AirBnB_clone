@@ -1,0 +1,206 @@
+.places h1 {
+    font-size: 30px;
+    padding-left: 30px;
+}
+
+.places .articles {
+    display: inline-flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: normal;
+}
+article {
+    width: 390px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #FF5A5F;
+    border-radius: 4px;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-bottom: 30px;
+    position: relative;
+}
+.places h2 {
+    font-size: 30px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: inline-block;
+}
+
+.articles .price_by_night {
+    color: #FF5A5F;
+    border: 4px solid #FF5A5F;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 20px;
+    margin-top: -44px;
+}
+
+.information{
+    height:80px;
+    border-top: solid #DDDDDD 1px;
+    border-bottom: solid #DDDDDD 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 34px;
+}
+
+.guest_number h2,
+.bedroom_number h2,
+.bathroom_number h2 {
+    font-size: 14px;
+    color:  #484848;
+    font-weight: normal;
+    margin-top: 0px;
+    font-weight: 400;
+}
+
+.max_guest{
+    width: 100px;
+    display: flex;
+    height: inherit;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.guest_icon{
+    height: inherit;
+    width: inherit;
+    background: url("../images/icon_group.png");
+    background-repeat: no-repeat;
+    margin-left: 23px;
+    margin-top: 4px;
+}
+
+.number_rooms{
+    width: 100px;
+    display: flex;
+    height: inherit;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bedroom_icon{
+    height: inherit;
+    width: inherit;
+    background: url("../images/icon_bed.png");
+    background-repeat: no-repeat;
+    margin-left: 23px;
+    margin-top: 4px;
+}
+
+.number_bathrooms{
+    width: 100px;
+    display: flex;
+    height: inherit;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bathroom_icon{
+    height: inherit;
+    width: inherit;
+    background: url("../images/icon_bath.png");
+    background-repeat: no-repeat;
+    margin-left: 23px;
+    margin-top: 4px;
+}
+
+.user {
+    font-size: 14px;
+    color: #484848;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.description {
+    font-size: 14px;
+    text-align: left;
+    margin-top: 7px;
+}
+
+.big_price {
+    font-size: 26px !important;
+    font-weight: 500;
+}
+
+.article1 {
+    margin-top: 10px;
+    padding-bottom: 60px;
+}
+
+.places .amenities {
+    margin-top: 25px;
+}
+
+.places .amenities h2 {
+    font-size: 16px;
+    border-bottom: 1px solid #DDDDDD;
+    height: 20px;
+    display: flex;
+    width: 390px;
+}
+.places .amenities ul {
+    list-style: none;
+    font-size: 13px;
+    width: 120px;
+    padding-top: 0;
+} 
+
+.places .amenities li {
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.places .amenities img {
+    width: 20px;
+}25
+
+.places .reviews {
+    margin-top: px;
+}
+
+
+
+.places .reviews h2 {
+    font-size: 16px;
+    border-bottom: 1px solid #DDDDDD;
+    height: 20px;
+    display: flex;
+}
+
+.places .reviews ul h3 {
+    font-size: 14px;
+    float: left;
+    margin-bottom: 5px;
+}
+.places .reviews ul p {
+    font-size: 12px;
+    float: left;
+    margin-top: 0px;
+}
+
+.places .reviews ul {
+padding-left: 0px;
+padding-top: 0px;
+margin-top: 20px;
+text-align: left;
+margin-top: 0;
+}
+
+.specific{
+    padding-bottom: 33px;
+}
